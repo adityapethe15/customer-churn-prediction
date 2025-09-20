@@ -1,0 +1,16 @@
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore a virtual environment directory
+venv/
+.venv/
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+
+# Ignore data files
+# The 'data' folder contains the dataset, which can be large.
+# It's good practice to not commit large datasets to Git.
+data/
